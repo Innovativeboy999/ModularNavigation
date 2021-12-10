@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/meet_nav_graph"
+    app:startDestination="@id/meetFragment">
+
+    <fragment
+        android:id="@+id/meetFragment"
+        android:name="com.example.meetmodule.MeetFragment"
+        android:label="fragment_meet"
+        tools:layout="@layout/fragment_meet" />
+</navigation>

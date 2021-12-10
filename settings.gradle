@@ -1,0 +1,6 @@
+include ':ProfileModule'
+include ':CommunityModule'
+include ':HomeModule'
+include ':MeetModule'
+include ':app'
+rootProject.name = "ModularNavigation"
